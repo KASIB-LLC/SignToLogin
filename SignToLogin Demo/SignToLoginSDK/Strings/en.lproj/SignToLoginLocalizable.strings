@@ -1,0 +1,93 @@
+/* 
+  Localizable.strings
+  SignToLoginSDK
+
+  Created by Pavel Sumarokov on 6/26/13.
+  Copyright (c) 2013 KASIB. All rights reserved.
+*/
+
+"register_title"                = "Register";
+"register_email_placeholder"    = "E-mail*";
+"register_name_placeholder"     = "Name*";
+"register_phone_placeholder"    = "Phone Number";
+"register_company_placeholder"  = "Company";
+"register_position_placeholder" = "Position";
+"register_birthDateLabel_title" = "Birth Date:";
+"register_genderLabel_title"    = "Gender:";
+"register_submitButton_title"   = "Submit";
+"register_email_exists"         = "Specified e-mail or username is already taken";
+
+"logout"        = "Logout";
+"login_title"   = "Login";
+"login_signin"  = "Sign In";
+"login_info"    = "Please specify your e-mail address to automatically associate account information with signatures when signing a document.";
+"login_email_placeholder"   = "E-mail";
+
+"unknown_user"      = "User with such e-mail does not exist";
+"new_device_type"   = "Please register to create an example for this type of device";
+"bad_signature"     = "Signature does not match sample";
+"enter %i more"     = "Please enter %i more signatures to create a pattern";
+"sample_is_required" = "Not enough signatures have been provided to create a sample";
+"empty_signature"   = "Signature cannot be empty";
+
+"sign_done" = "Done";
+"sign_cancel" = "Cancel";
+"sign_count_label_of" = "of";
+
+"wrong_email"       = "Wrong e-mail format";
+"wrong_name"        = "Name field must not be empty";
+"wrong_phone"       = "Wrong phone number format";
+
+"long_user_name_%d_format" = "User name should not be longer than %d characters";
+
+"pdf_documents"     = "PDF Documents";
+"pages_label"       = "Page:";
+
+"photo_request"     = "Please provide a photo";
+"no_photo"          = "Photo has not been provided";
+
+// PDF
+"close_pdf_title"   = "Are you sure you want to close the document?";
+"close_pdf_text"    = "Signature will not be saved!";
+
+//history
+"history_title"     = "Document History";
+"sign_security"     = "Signature security: ";
+"phone"             = "Phone: ";
+"company"           = "Company: ";
+"position"          = "Position: ";
+"place"             = "Place: ";
+"empty_history"     = "History is empty";
+
+//common
+"common_warning"    = "Warning";
+"common_ok"         = "OK";
+"wrong_api_key"     = "Application is not registered";
+
+//alternative alert
+"alternative_later" = "Later";
+"alternative_try_again" = "Try again";
+
+"open_document_alternative_question" = "Unable to verify the document.\nTry again?";
+"save_document_alternative_question" = "Unable to save the document.\nTry again?";
+
+"prev"              = "Previous";
+"next"              = "Next";
+"close"             = "Close";
+
+//progress hud
+"progreshud_wait"   = "Please wait";
+
+"cancel" = "Cancel";
+"camera" = "Camera";
+"album"  = "Photo Album";
+
+//pdf loading errors
+"inconsistency_pdf_history" = "Inconsistency PDF document history";
+"bad_pdf" = "PDF is not registered or has been modified externally";
+"signed_but_outside_updating" = "This document is signed, but has been updated outside of the application.";
+"signed_but_not_registered" = "This document is signed, but is not registered at the server.";
+"no_signature" = "There is no any signature in document.";
+
+//connection errors
+"no_internet_connection" = "Internet connection is required.";

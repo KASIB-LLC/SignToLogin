@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  SignToLogin
+
+  Created by Pavel Sumarokov on 5/1/13.
+  Copyright (c) 2013 KASIB. All rights reserved.
+*/
+
+"home_title" = "Demo Application";
+"home_header" = "Cloud Signature Verification Platform";
+"home_about" = "SignToLogin is biometric system of verification by handwritten signature. SignToLogin service may be useful for billing automation, signing contracts and optimizing big amount of paperwork";
+"home_signin" = "Sign In";
+"home_register" = "Register";
+"back"       = "Back";
+
+"warning" = "Warning";
+"login_before_history_warning" = "Only registered users can view the document history.\nPlease login or register before and tap on signature in document again.";
+"login_before_viewing_warning" = "Only registered users can view the documents.\nPlease login or register before.";
+"ok" = "Ok";

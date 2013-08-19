@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  SignToLoginSDK
+
+  Created by Pavel Sumarokov on 6/26/13.
+  Copyright (c) 2013 KASIB. All rights reserved.
+*/
+
+"register_title" = "Регистрация";
+"register_email_placeholder" = "Электронная почта*";
+"register_name_placeholder"  = "Имя*";
+"register_phone_placeholder" = "Телефон";
+"register_company_placeholder" = "Компания";
+"register_position_placeholder"= "Должность";
+"register_birthDateLabel_title" = "Дата рождения:";
+"register_genderLabel_title"    = "Пол:";
+"register_submitButton_title"   = "Зарегистрировать";
+"register_email_exists"         = "Указанный адрес почты или имя заняты";
+
+"logout"        = "Выход";
+"login_title"   = "Вход";
+"login_signin"  = "Вход";
+"login_info"    = "Пожалуйста укажите адрес электронной почты для автоматической привязки информации вашего аккаунта к подписи.";
+"login_email_placeholder"   = "Электронная почта";
+
+"unknown_user"      = "Пользователь с заданным почтовым адресом не существует";
+"new_device_type"   = "Пройдите регистрацию, чтобы создать образец для этого устройства";
+"bad_signature"     = "Подпись не совпадает с образцом";
+"enter %i more"     = "Введите %i дополнительных подписей, чтобы создать образец";
+"sample_is_required" = "Было введено недостаточно подписей для создания образца";
+"empty_signature"   = "Подпись не может быть пустой";
+
+"sign_done" = "Готово";
+"sign_cancel" = "Отмена";
+"sign_count_label_of" = "из";
+
+"wrong_email"       = "Неправильный адрес электронной почты";
+"wrong_name"        = "Пожалуйста укажите имя";
+"wrong_phone"       = "Неправильный формат телефонного номера";
+
+"long_user_name_%d_format" = "Имя пользователя не должно быть более %d символов";
+
+"pdf_documents"     = "PDF документы";
+"pages_label"       = "Страница:";
+
+"photo_request"     = "Пожалуйста сделайте фотографию";
+"no_photo"          = "Фотография не будет приложена";
+
+// PDF
+"close_pdf_title"   = "Вы уверены, что хотите закрыть документ?";
+"close_pdf_text"    = "Подпись не будет сохранена!";
+
+//history
+"history_title"     = "История Документа";
+"sign_security"     = "Надежность подписи: ";
+"phone"             = "Телефон: ";
+"company"           = "Компания: ";
+"position"          = "Должность: ";
+"place"             = "Место: ";
+"empty_history"     = "История подписания документа отсутствует";
+
+//common
+"common_warning"    = "Предупреждение";
+"common_back"       = "Назад";
+"common_ok"         = "Готово";
+"wrong_api_key"     = "Приложение не зарегистрировано";
+
+//alternative alert
+"alternative_later" = "Позже";
+"alternative_try_again" = "Повторить";
+
+"open_document_alternative_question" = "Не удалось проверить документ.\nПовторить попытку?";
+"save_document_alternative_question" = "Не удалось сохранить документ.\nПовторить попытку?";
+
+"prev"              = "Предыдущий";
+"next"              = "Следующий";
+"close"             = "Закрыть";
+
+//progress hud
+"progreshud_wait"   = "Пожалуйста подождите";
+
+"cancel" = "Отмена";
+"camera" = "Камера";
+"album"  = "Фото альбом";
+
+//pdf loading errors
+"error" = "Error";
+"inconsistency_pdf_history" = "История подписаний документа неконсистентна.";
+"bad_pdf" = "PDF документ не зарегистрирован или был изменен вне приложения.";
+"signed_but_outside_updating" = "Этот документ подписан, но был изменен вне приложения.";
+"signed_but_not_registered" = "Этот документ подписан, но не был зарегистрирован на сервере.";
+"no_signature" = "В документе нет ни одной подписи.";
+
+//connection errors
+"no_internet_connection" = "Вероятно, соединение с Интернетом прервано.";
